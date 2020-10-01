@@ -1,0 +1,40 @@
+# Biometrie - worflow
+
+# Setup ----
+
+SciViews::R
+
+# Préparation des données ----
+
+## Importation des données
+biometry <- read("data/biometry_2014.xlsx")
+## Ajout des labels pour une variable 2 niveaux
+biometry %>.%
+  mutate(.,
+         gender = factor(gender, levels = c("H", "F"), labels = c("Homme", "Femme"))
+  ) -> biometry
+## Ajout des labels et unités
+biometry <- labelise(biometry, self = FALSE,
+                     label = list(
+                       gender = "Genre",
+                       db = "Date de naissance",
+                       yb = "Année de naissance",
+                       weight = "Masse",
+                       height = "Taille",
+                       wrist = "Circomférence du poignet",
+                       measurement_date = "Année de la mesure"),
+                     units = list(
+                       gender = NA,
+                       db = NA,
+                       yb = NA,
+                       weight = "kg",
+                       height = "cm",
+                       wrist = "mm",
+                       measurement_date = "année"))
+
+# Ci-dessous vos graphiques ----
+
+
+
+
+
