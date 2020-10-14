@@ -2,21 +2,16 @@
 
 ## Avant-propos
 
-Ce projet est un projet de **groupe**, **court** et **cadré** qui doit être terminé pour la fin du module 2 et portant sur la biométrie humaine.
-
 Il est possible que ce document évolue au cours du temps. N'hésitez pas à aller vérifier le lien suivant afin de voir les modifications dans les consignes : <https://github.com/BioDataScience-Course/A02Gb_workflow>
 
-------
 
-## Comparaison R et Word _versus_ R et R Markdown
+## Objectif
 
-Exercice du cours de [Science des Données Biologiques I de l'Université de Mons, module 02](https://wp.sciviews.org/sdd-umons/?iframe=wp.sciviews.org/sdd-umons-2020/graphiques-dans-r-markdown.html).
-
-### Objectif
+Ce projet est un projet de **individuel**, **court** et **cadré** qui doit être terminé pour la fin du module 2 et portant sur la biométrie humaine.
 
 - Réaliser l'intérêt de R Markdown pour écrire des documents scientifiques de manière à ce qu'ils soient reproductibles et faciles à mettre à jour.
 
-### Consignes
+## Consignes
 
 Vous êtes dans la peau d'un biologiste qui analyse des données de biométrie humaine. Vous avez à votre disposition deux jeux de données répartis en deux fichiers, disponibles à partir du sous-dossier `data` de ce projet.
 
@@ -77,4 +72,4 @@ A la fin de ce module, vous devez avoir
 
 - un fichier au format .Rmd nommé `biometry.Rmd` (dans le dossier `docs`) qui comprend le nuage de point le plus à jour.
 
-- un fichier au format .md nommé `workflow.Rmd` (dans le dossier `docs`) qui comprend votre comparaison des workflows.
+- un fichier au format .Rmd nommé `workflow.Rmd` (dans le dossier `docs`) qui comprend votre comparaison des workflows.
