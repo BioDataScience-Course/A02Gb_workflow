@@ -1,15 +1,12 @@
-# Exercices pratiques sur le Module 2 du cours de SDDI : Workflow en biologie
+# SDD I Module 2 : Workflow en biologie
 
 ## Avant-propos
 
 Il est possible que ce document évolue au cours du temps. N'hésitez pas à aller vérifier le lien suivant afin de voir les modifications dans les consignes : <https://github.com/BioDataScience-Course/A02Gb_workflow>
 
-
 ## Objectif
 
-Ce projet est un projet de **individuel**, **court** et **cadré** qui doit être terminé pour la fin du module 2 et portant sur la biométrie humaine.
-
-- Réaliser l'intérêt de R Markdown pour écrire des documents scientifiques de manière à ce qu'ils soient reproductibles et faciles à mettre à jour.
+Ce projet est un projet **individuel**, **court** et **cadré** qui doit être terminé pour la fin du module 2. Il porte sur la biométrie humaine. Son but est de vous faire réaliser l'intérêt de R Markdown pour écrire des documents scientifiques de manière à ce qu'ils soient reproductibles et faciles à mettre à jour.
 
 ## Consignes
 
@@ -40,15 +37,15 @@ Ces fichiers comprennent 7 variables :
 
 - Réalisez un `commit` signifiant la fin de cette première analyse. 
 
-#### Nouvelles données `biometry_2016.xlsx`
+### Nouvelles données `biometry_2016.xlsx`
 
-Après avoir réalisé vos deux débuts de rapports, vous recevez des chercheurs de nouvelles données se trouvant dans le dossier `data` qui se nomme `biometry_2016.xlsx`
+Après avoir réalisé une première version de vos rapports, l'un dans Word, et l'autre dans R Markdown, avec les données de `data/biometry_2014.xlsx`, vous recevez de nouvelles données (celles dans`data/biometry_2016.xlsx`).
 
-- Actualisez votre rapport sous Microsoft Word avec ces nouvelles données. Vous devez bien évidemment actualiser le graphique. Actualisez revient donc à remplacer le graphique ancien et plus à jour par un nouveau graphique mis à jour.
+- Actualisez votre rapport sous Microsoft Word avec ces nouvelles données. Vous devez bien évidemment actualiser le graphique, ce qui revient donc à remplacer l'ancienne version par un graphique recalculé avec toutes les données 2014 + 2016.
 
 - Faites de même pour votre rapport sous R Markdown.
 
-#### Comparaison des deux méthodes
+### Comparaison des deux méthodes
 
 A la suite de vos analyses, répondez aux questions ci-dessous pour cadrer votre réflexion sur le workflow et la recherche reproductible.
 
@@ -64,7 +61,7 @@ Utilisez un fichier RMarkdown (`.Rmd`) pour y consigner vos réponses et placez-
 
 ### Etat de progression 
 
-A la fin de ce module, vous devez avoir 
+A la fin de ce module, vous devez avoir :
 
 - un script R nommé `biometry_graphe.R` (dans le dossier `R`) qui comprend vos premiers graphique que vous utiliserez dans le document `biometry_word.docx` (dans le dossier `docs`)
 
